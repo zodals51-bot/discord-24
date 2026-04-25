@@ -61,7 +61,7 @@ async def 인증(interaction: discord.Interaction):
         # 개인 DM으로 전송
         await interaction.user.send(
             f"✅ **인증 안내**\n"
-            f"로블록스 인증 센터(https://www.roblox.com/ko/games/123167227935181/DBS 에 접속하여 아래 코드를 입력해주세요:\n\n"
+            f"로블록스 인증 센터(https://www.roblox.com/ko/games/131467007908121/DBS) 에 접속하여 아래 코드를 입력해주세요:\n\n"
             f"🔑 **인증 코드:** `{code}`"
         )
         await interaction.response.send_message("✅ 개인 DM으로 인증 코드를 성공적으로 전송했습니다! DM을 확인해주세요.", ephemeral=True)
